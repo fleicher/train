@@ -1,0 +1,259 @@
+{
+  "applinks": {
+
+  },
+  "times": [
+    // Ireland
+    ["bel", "dub", 2.10],
+    ["dub", "cok", 2.45],
+    // United Kingdom
+    ["inv", "edi", 3.17],
+    ["abe", "edi", 2.18],
+    ["gla", "edi", 0.5],
+    ["edi", "yor", 2.35],
+    ["yor", "new", 0.56],
+    ["yor", "lon", 1.47], // r2r
+    ["yor", "man", 1.14], // r2r
+    ["gla", "bir", 4.25],
+    ["man", "bir", 1.33], // r2r
+    ["man", "liv", 0.38], // r2r
+    ["bir", "lon", 1.25],
+    ["bir", "lon", 1.45],
+    ["car", "bri", 0.44], // r2r
+    ["lon", "bri", 1.27], // r2r
+    ["bri", "bir", 1.23], // r2r
+    ["lon", "bru", 2.35],
+    ["lon", "par", 2.50],
+    ["lon", "not", 1.36], // r2r
+    ["lon", "she", 1.58], // r2r
+    ["not", "she", 0.50], // r2r
+    ["she", "yor", 1.45], // r2r
+    ["not", "lee", 1.48], // r2r
+    ["lee", "lon", 2.13], // r2r
+    ["lee", "yor", 0.21], // r2r
+    ["lon", "sou", 1.19], // r2r
+    ["lon", "lil", 1.22], // r2r
+    ["lil", "bru", 0.35], // r2r
+    ["lil", "par", 1.02], // r2r
+    ["bru", "ant", 0.33], // r2r
+    ["bru", "rot", 1.10], // r2r
+    ["ant", "rot", 0.32], // r2r
+    ["ant", "ams", 1.14], // r2r
+    ["rot", "ams", 0.40], // r2r
+
+    // Iberian Peninsula
+    ["san", "vig", 1.30],
+    ["vig", "por", 2.20],
+    ["por", "lis", 2.40],
+    ["lis", "far", 3.00],
+    ["san", "mad", 5.10], //"C"
+    ["lis", "bor", 17.25],
+    ["lis", "mad", 10.15],
+    ["sev", "mad", 2.20],
+    ["mad", "mal", 2.25],
+    ["sev", "bar", 5.30],
+    ["sev", "jer", 1.00],
+    ["mad", "vae", 1.40],
+    ["vae", "bar", 2.30],
+    ["mad", "bar", 2.30],
+    ["mad", "bor", 10.30],
+    ["mad", "ali", 2.21], // r2r
+    ["ali", "vae", 1.33], // r2r
+    ["ali", "mur", 1.24], // r2r
+    ["mad", "mur", 3.28], // r2r
+    ["mad", "gra", 3.17], // r2r
+    // France
+    ["par", "nan", 2.06], // r2r
+    ["nan", "bor", 3.32], // r2r
+    ["bor", "pau", 2.01], // r2r
+    ["pau", "tou", 2.16], // r2r
+    ["par", "ren", 2.10],
+    ["bre", "ren", 2.10], // r2r
+    ["bar", "mon", 3.00],
+    ["bar", "par", 6.30],
+    ["bor", "lyo", 6.15],
+    ["bor", "par", 3.15],
+    ["tou", "par", 4.21], // r2r
+    ["tou", "bor", 2.10], // r2r
+    ["bor", "biz", 1.58], // r2r
+    ["tou", "mon", 2.03], // r2r
+    ["tou", "per", 2.03], // r2r
+    ["mon", "mar", 1.55],
+    ["mar", "nic", 2.35],
+    ["nic", "geo", 4.55],
+    ["lyo", "ben", 3.30],
+    ["lyo", "mar", 1.40],
+    ["par", "bas", 3.05],
+    ["par", "fra", 3.55],
+    ["par", "bru", 1.25],
+    ["bru", "ams", 1.50],
+    ["ben", "bas", 0.56], // r2r
+    ["ben", "zur", 0.56], // r2r
+    ["ben", "gen", 1.56], // r2r
+    ["gen", "lyo", 1.56], // r2r
+    ["gen", "mil", 4.01], // r2r
+    ["zur", "inn", 3.31], // r2r
+    ["inn", "ver", 3.35], // r2r
+    ["inn", "mun", 1.44], // r2r
+    ["inn", "saz", 1.48], // r2r
+    ["saz", "mun", 1.31], // r2r
+    ["saz", "lin", 1.06], // r2r
+    ["lin", "wie", 1.14], // r2r
+
+    // Italy
+    ["toi", "mil", 0.50], // r2r
+    ["toi", "geo", 2.09], // r2r
+    ["toi", "lyo", 3.53], // r2r
+    ["geo", "pis", 1.30], // r2r
+    ["nic", "mil", 5.10], // interactive map
+    ["geo", "mil", 0.15], // calc'ed diff
+    ["geo", "rom", 4.05],
+    ["mil", "ben", 4.00], //interactive map
+    ["mil", "zur", 3.30], // ?? that is the remaining time from static map
+    ["mil", "mun", 7.30],
+    ["mil", "ven", 2.35],
+    ["mil", "ver", 1.13], // r2r
+    ["ver", "ven", 1.12], // r2r
+    ["ver", "bol", 0.50], // r2r
+    ["ven", "mun", 8.40],
+    ["ven", "wie", 7.40],
+    ["ven", "lju", 6.30],
+    ["ven", "bol", 1.25],
+    ["mil", "bol", 1.00],
+    ["bol", "fir", 0.35],
+    ["fir", "rom", 1.30],
+    ["rom", "bai", 4.00],
+    ["rom", "nap", 1.05],
+    // ["nap", "can", 7.30], this includes a ferry
+    // Germany
+    ["bas", "fra", 3.55],
+    ["fra", "bru", 3.10],
+    ["fra", "kol", 1.05],
+    ["fra", "mah", 0.37], // r2r
+    ["mah", "stu", 0.37], // r2r
+    ["stu", "str", 1.21], // r2r
+    ["stu", "bas", 2.18], // r2r
+    ["kol", "bru", 1.50],
+    ["mun", "wie", 4.00],
+    ["mun", "pra", 6.00],
+    ["mun", "ber", 4.30],
+    ["mun", "ham", 6.00],
+    ["mun", "fra", 3.20],
+    ["fra", "ber", 3.55],
+    ["fra", "ham", 3.40],
+    ["lux", "par", 2.09],
+    ["lux", "str", 1.34],
+    ["str", "par", 1.48],
+
+    ["ams", "ein", 1.15], // r2r
+    ["dui", "ams", 2.16], // r2r
+    ["ein", "dui", 1.46], // r2r
+    ["dui", "kol", 0.22], // r2r
+    ["dui", "dor", 0.47], // r2r
+    ["kol", "ams", 2.38],
+    ["ams", "ber", 6.10],
+    ["kob", "mam", 0.39],
+    ["kol", "ber", 4.20],
+    ["han", "fra", 2.19], // r2r
+    ["han", "dor", 1.37], // r2r
+    ["han", "ber", 1.34], // r2r
+    ["dor", "brm", 1.47], // r2r
+    ["brm", "han", 0.57], // r2r
+    ["brm", "ham", 0.55], // r2r
+    ["ham", "kob", 4.45],
+    ["aar", "aal", 1.22], // r2r
+    ["ham", "aar", 4.15],
+    ["ams", "aar", 10.45],
+    ["dre", "lei", 1.03], // r2r
+    ["dre", "ber", 1.51], // r2r
+    ["lei", "ber", 1.13], // r2r
+    ["lei", "erf", 0.40], // r2r
+    ["ber", "erf", 1.54], // r2r
+    ["erf", "nur", 1.08], // r2r
+    ["erf", "fra", 2.05], // r2r
+    ["erf", "dor", 3.43], // r2r
+    ["nur", "ber", 2.50], // r2r
+    ["nur", "fra", 2.04], // r2r
+    ["nur", "stu", 2.11], // r2r
+    ["nur", "mun", 1.06], // r2r
+    ["nur", "lin", 5.52], // r2r
+    ["nur", "pra", 4.10], // r2r
+
+    // East Europe
+    ["ber", "poz", 2.47], // r2r
+    ["poz", "szc", 3.39], // r2r
+    ["poz", "war", 2.33], // r2r
+    ["poz", "wro", 2.21], // r2r
+    ["poz", "gda", 2.54], // r2r
+    ["gda", "war", 2.47], // r2r
+    ["ber", "pra", 4.05],
+    ["ber", "war", 6.20],
+    ["wie", "war", 7.00],
+    ["wie", "bra", 1.06], // r2r
+    ["bra", "bud", 2.22], // r2r
+    ["bra", "kat", 4.15], // r2r
+    ["pra", "war", 8.15],
+    ["war", "kat", 2.18], // r2r
+    ["kra", "kat", 1.50], // r2r
+    ["kat", "wro", 2.25], // r2r
+    ["wro", "dre", 4.26], // r2r via Cottbus
+
+    // Skandinavia
+    ["osl", "kri", 4.36], // vy.no
+    ["osl", "sta", 7.37], // vy.no
+    ["ume", "sun", 2.39], // r2r
+    ["sun", "sto", 3.33], // r2r
+    ["kob", "sto", 5.00],
+    ["kob", "osl", 7.30],
+    ["sto", "osl", 4.30],
+    ["osl", "bee", 6.45],
+    ["osl", "tro", 6.30],
+    ["osl", "sto", 4.30],
+    ["tro", "sto", 8.45],
+    ["hel", "oul", 5.14], // r2r
+    ["hel", "tur", 2.00],
+    ["hel", "sak", 3.27], // R2R
+    ["sak", "mos", 3.30], // R2R
+    ["sak", "tal", 7.58], // R2R
+    ["mos", "rig", 16.32], // R2R
+    ["mos", "min", 9.02], // R2R
+
+    ["got", "osl", 3.36], // r2r
+    ["got", "sto", 2.57], // r2r
+    ["got", "mam", 2.30], // r2r
+    // South Eastern Europe
+    ["bud", "war", 9.55],
+    ["bud", "wie", 2.30],
+    ["bud", "pra", 6.45],
+    ["bud", "lju", 9.45],
+    ["bud", "clu", 7.28],
+    ["clu", "bro", 6.27],
+    ["bro", "buc", 2.38],
+    ["lju", "ven", 6.30],
+    ["lju", "zag", 2.20],
+    ["zag", "bud", 6.40],
+    ["zag", "spl", 6.00],
+    ["zag", "beo", 6.20],
+    ["bud", "beo", 8.05],
+    ["bud", "buc", 15.00],
+    ["tim", "buc", 9.22], // r2r
+    ["tim", "bud", 5.09], // r2r
+    ["bud", "beo", 8.05],
+    ["beo", "sko", 9.50],
+    ["beo", "sof", 9.30],
+    ["beo", "pod", 9.49],
+    ["buc", "sof", 9.40],
+    ["bur", "sof", 5.57],
+    ["sof", "var", 7.26], // r2r
+    ["var", "buc", 7.36], // r2r
+    // Turco-greek
+    ["sko", "the", 5.00],
+    ["sof", "the", 7.20],
+    ["the", "ath", 5.25],
+    ["ath", "pat", 4.10],
+    ["sof", "ist", 9.40],
+    ["buc", "ist", 18.00],
+    ["ist", "ank", 4.00]
+    //["ist", "esk", ]
+  ]
+}

@@ -1,0 +1,1547 @@
+{
+    "lis": {
+        "city": "Lisboa",
+        "codes": ["LPPT"],
+        "links": {
+            "sal": 7
+        },
+        "uic": null
+    },
+    "san": {
+        "city": "Santiago de Comp.",
+        "codes": ["LEST"],
+        "links": {
+            "vig": -1,
+            "aco": -1
+        },
+        "uic": null
+    },
+    "far": {
+        "city": "Faro",
+        "codes": ["LPFR"],
+        "links": {"lis": 2.47},
+        "note": "to entrecampos",
+        "uic": null
+    },
+    "por": {
+        "city": "Porto",
+        "codes": ["LPPR"],
+        "links": {"lis": 2.46},
+        "note": "oriente - campanha",
+        "uic": null
+    },
+    "vig": {
+        "city": "Vigo",
+        "codes": ["LEVX"],
+        "links": {"san": -1},
+        "uic": null
+    },
+    "cad": {
+        "city": "C\u00e1diz",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "hue": {
+        "city": "Huelva",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sal": {
+        "city": "Salamanca",
+        "codes": [],
+        "links": {
+            "mad": 3
+        },
+        "uic": null
+    },
+    "aco": {
+        "city": "A Coru\u00f1a",
+        "codes": ["LECO"],
+        "links": {},
+        "uic": null
+    },
+    "zam": {
+        "city": "Zamora",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sev": {
+        "city": "Sevilla",
+        "codes": ["LEZL"],
+        "links": {"cor": 1.12, "mad": 0.4},
+        "uic": null
+    },
+    "cor": {
+        "city": "C\u00f3rdoba",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mal": {
+        "city": "M\u00e1laga",
+        "codes": ["LEMG"],
+        "links": {"mad": 2.33},
+        "uic": null
+    },
+    "tol": {
+        "city": "Toledo",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mad": {
+        "city": "Madrid",
+        "codes": ["LEMD"],
+        "links": {},
+        "uic": null
+    },
+    "ovi": {
+        "city": "Oviedo",
+        "codes": ["LEAS"],
+        "links": {},
+        "uic": null
+    },
+    "gra": {
+        "city": "Granada",
+        "codes": ["LEGR"],
+        "links": {},
+        "uic": null
+    },
+    "leo": {
+        "city": "Le\u00f3n",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "qui": {
+        "city": "Quimper",
+        "codes": ["LFRQ"],
+        "links": {},
+        "uic": null
+    },
+    "cok": {
+        "city": "Cork",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "dub": {
+        "city": "Dublin",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "val": {
+        "city": "Valladolid",
+        "codes": ["LEVD"],
+        "links": {"mad": 1.02},
+        "uic": null
+    },
+    "bel": {
+        "city": "Belfast",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bre": {
+        "city": "Brest",
+        "codes": ["LFRB"],
+        "links": {},
+        "uic": null
+    },
+    "jae": {
+        "city": "Ja\u00e9n",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "alm": {
+        "city": "Almer\u00eda",
+        "codes": ["LEAM"],
+        "links": {},
+        "uic": null
+    },
+    "bil": {
+        "city": "Bilbao",
+        "codes": ["LEBB"],
+        "links": {},
+        "uic": null
+    },
+    "bir": {
+        "city": "Birmingham",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "car": {
+        "city": "Cardiff",
+        "codes": ["EGFF"],
+        "links": {},
+        "uic": null
+    },
+    "gla": {
+        "city": "Glasgow",
+        "codes": ["EGPF"],
+        "links": {},
+        "uic": null
+    },
+    "che": {
+        "city": "Cherbourg",
+        "codes": ["EGJB", "EGJJ"],
+        "links": {},
+        "uic": null
+    },
+    "bor": {
+        "city": "Bordeaux",
+        "codes": ["LFBD"],
+        "links": {},
+        "uic": null
+    },
+    "man": {
+        "city": "Manchester",
+        "codes": ["EGCC"],
+        "links": {},
+        "uic": null
+    },
+    "nan": {
+        "city": "Nantes",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "cat": {
+        "city": "Cartagena",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "alb": {
+        "city": "Albacete",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ren": {
+        "city": "Rennes",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "liv": {
+        "city": "Liverpool",
+        "codes": ["EGGP"],
+        "links": {},
+        "uic": null
+    },
+    "bri": {
+        "city": "Bristol",
+        "codes": ["EGGD"],
+        "links": {},
+        "uic": null
+    },
+    "zar": {
+        "city": "Zaragoza",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mur": {
+        "city": "Murcia",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "stm": {
+        "city": "St-Malo",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ali": {
+        "city": "Alicante",
+        "codes": ["LEAL"],
+        "links": {"vae": 1.32, "mad": 3.09},
+        "uic": null
+    },
+    "tou": {
+        "city": "Toulouse",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vae": {
+        "city": "Val\u00e8ncia",
+        "codes": ["LEVC:"],
+        "links": {"mad": 1.38, "bar": 3.09},
+        "uic": null
+    },
+    "hus": {
+        "city": "Huesca",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lon": {
+        "city": "London",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "leh": {
+        "city": "Le Havre",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "edi": {
+        "city": "Edinburgh",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lem": {
+        "city": "Le Mans",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bru": {
+        "city": "Brussel",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "she": {
+        "city": "Sheffield",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lee": {
+        "city": "Leeds",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "new": {
+        "city": "Newcastle",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "yor": {
+        "city": "York",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tor": {
+        "city": "Tours",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mon": {
+        "city": "Montpellier",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bar": {
+        "city": "Barcelona",
+        "codes": ["LERS", "LEBL", "LEGE"],
+        "links": {},
+        "uic": null
+    },
+    "cle": {
+        "city": "Clermont-",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "rou": {
+        "city": "Rouen",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "rot": {
+        "city": "Rotterdam",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ant": {
+        "city": "Antwerpen",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lil": {
+        "city": "Lille",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "per": {
+        "city": "Perpignan",
+        "codes": ["LFMP"],
+        "links": {"bar": 1.22},
+        "uic": null
+    },
+    "ams": {
+        "city": "Amsterdam",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mar": {
+        "city": "Marseille",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "par": {
+        "city": "Paris",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lyo": {
+        "city": "Lyon",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sta": {
+        "city": "Stavanger",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lux": {
+        "city": "Luxembourg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "gre": {
+        "city": "Grenoble",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ber": {
+        "city": "Bergen",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "str": {
+        "city": "Strasbourg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kri": {
+        "city": "Kristiansand",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "dij": {
+        "city": "Dijon",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lie": {
+        "city": "Li\u00e8ge",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "dui": {
+        "city": "Duisb.",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ben": {
+        "city": "Bern",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "gen": {
+        "city": "Gen\u00e8ve",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bas": {
+        "city": "Basel",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sas": {
+        "city": "Sassari",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "brm": {
+        "city": "Bremen",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "toi": {
+        "city": "Torino",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tro": {
+        "city": "Trondheim",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ham": {
+        "city": "Hamburg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "nic": {
+        "city": "Nice",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "dor": {
+        "city": "Dortmund",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mah": {
+        "city": "Mannheim",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kol": {
+        "city": "K\u00f6ln",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "aar": {
+        "city": "Aarhus",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "geo": {
+        "city": "Genova",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "fra": {
+        "city": "Frankfurt",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kob": {
+        "city": "K\u00f8benhavn",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "got": {
+        "city": "G\u00f6teborg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "osl": {
+        "city": "Oslo",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "stu": {
+        "city": "Stuttgart",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "zur": {
+        "city": "Z\u00fcrich",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mil": {
+        "city": "Milano",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "cag": {
+        "city": "Cagliari",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "han": {
+        "city": "Hannover",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ver": {
+        "city": "Verona",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "olb": {
+        "city": "Olbia",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "erf": {
+        "city": "Erfurt",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mun": {
+        "city": "M\u00fcnchen",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "rom": {
+        "city": "Roma",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ros": {
+        "city": "Rostock",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "dre": {
+        "city": "Dresden",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bod": {
+        "city": "Bod\u00f8",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "nur": {
+        "city": "N\u00fcrnberg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "fir": {
+        "city": "Firenze",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "inn": {
+        "city": "Innsbruck",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bol": {
+        "city": "Bologna",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pal": {
+        "city": "Palermo",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "nar": {
+        "city": "Narvik",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sun": {
+        "city": "Sundsvall",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lei": {
+        "city": "Leipzig",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pra": {
+        "city": "Praha",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ven": {
+        "city": "Venezia",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vas": {
+        "city": "V\u00e4ster\u00e5s",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mam": {
+        "city": "Malm\u00f6",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "nap": {
+        "city": "Napoli",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bei": {
+        "city": "Berlin",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "saz": {
+        "city": "Salzburg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lin": {
+        "city": "Linz",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "szc": {
+        "city": "Szczecin",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lik": {
+        "city": "Link\u00f6ping",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lju": {
+        "city": "Ljubljana",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ume": {
+        "city": "Ume\u00e5",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "wie": {
+        "city": "Wien",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "brn": {
+        "city": "Brno",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "gda": {
+        "city": "Gda\u0144sk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "spl": {
+        "city": "Split",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kat": {
+        "city": "Katowice",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "upp": {
+        "city": "Uppsala",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "grz": {
+        "city": "Graz",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kir": {
+        "city": "Kiruna",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "poz": {
+        "city": "Pozna\u0144",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "caa": {
+        "city": "Catania",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sto": {
+        "city": "Stockholm",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "can": {
+        "city": "Catania",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "wro": {
+        "city": "Wroc\u0142aw",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kal": {
+        "city": "Kaliningrad",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "zag": {
+        "city": "Zagreb",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mes": {
+        "city": "Messina",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tam": {
+        "city": "Tampere",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lod": {
+        "city": "\u0141\u00f3d\u017a",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tur": {
+        "city": "Turku",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lul": {
+        "city": "Lule\u00e5",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pod": {
+        "city": "Podgorica",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bra": {
+        "city": "Bratislava",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sar": {
+        "city": "Sarajevo",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "jyv": {
+        "city": "Jyv\u00e4skyl\u00e4",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bai": {
+        "city": "Bari",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "rov": {
+        "city": "Rovaniemi",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ost": {
+        "city": "Ostrava",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "war": {
+        "city": "Warszawa",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bia": {
+        "city": "Bia\u0142ystok",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bud": {
+        "city": "Budapest",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kra": {
+        "city": "Krak\u00f3w",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kau": {
+        "city": "Kaunas",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kuo": {
+        "city": "Kuopio",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "rig": {
+        "city": "R\u012bga",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "oul": {
+        "city": "Oulu",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tal": {
+        "city": "Tallinn",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lah": {
+        "city": "Lahti",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sko": {
+        "city": "Skopje",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "hel": {
+        "city": "Helsinki",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "beo": {
+        "city": "Beograd",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pri": {
+        "city": "Pri\u0161tina",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pat": {
+        "city": "P\u00e1tra",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vil": {
+        "city": "Vilnius",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mum": {
+        "city": "Murmansk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lvi": {
+        "city": "L'viv",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "brs": {
+        "city": "Brest",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "psk": {
+        "city": "Pskov",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "clu": {
+        "city": "Cluj-Napoca",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "joe": {
+        "city": "Joensuu",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "apa": {
+        "city": "Apatity",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "buc": {
+        "city": "Bucure\u015fti",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bro": {
+        "city": "Bra\u015fov",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vit": {
+        "city": "Vitebsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "the": {
+        "city": "Thessalon\u00edki",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sof": {
+        "city": "Sofia",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ors": {
+        "city": "Orsha",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "min": {
+        "city": "Minsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sak": {
+        "city": "Sankt-Peterburg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ath": {
+        "city": "Ath\u00edna",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pet": {
+        "city": "Petrozavodsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mog": {
+        "city": "Mogilev",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vin": {
+        "city": "Vinnytsia",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "chi": {
+        "city": "Chi\u015fin\u0103u",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kyi": {
+        "city": "Kyiv",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "gom": {
+        "city": "Gomel",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "smo": {
+        "city": "Smolensk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tve": {
+        "city": "Tver",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ark": {
+        "city": "Arkhangelsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bur": {
+        "city": "Burgas",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "var": {
+        "city": "Varna",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mos": {
+        "city": "Moskva",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "con": {
+        "city": "Constan\u0163a",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bus": {
+        "city": "Bursa",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bry": {
+        "city": "Bryansk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "izm": {
+        "city": "\u0130zmir",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "yar": {
+        "city": "Yaroslav",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ist": {
+        "city": "\u0130stanbul",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ode": {
+        "city": "Odesa",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kry": {
+        "city": "Kryvyi Rih",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "myk": {
+        "city": "Mykolaiv",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kha": {
+        "city": "Kharkiv",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "afy": {
+        "city": "Afyon",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vol": {
+        "city": "Vologda",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "dni": {
+        "city": "Dnipro",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "bie": {
+        "city": "Bilecik",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ore": {
+        "city": "Orel",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "esk": {
+        "city": "Eski\u015fehir",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tul": {
+        "city": "Tula",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "niz": {
+        "city": "Nizhny Novgorod",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "lip": {
+        "city": "Lipetsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "rya": {
+        "city": "Ryazan",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ank": {
+        "city": "Ankara",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kur": {
+        "city": "Kursk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kon": {
+        "city": "Konya",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vla": {
+        "city": "Vladimir",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "beg": {
+        "city": "Belgorod",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kar": {
+        "city": "Karaman",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "zap": {
+        "city": "Zaporizhia",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sea": {
+        "city": "Sevastopol'",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "don": {
+        "city": "Donets'k",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vor": {
+        "city": "Voronezh",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kii": {
+        "city": "K\u0131r\u0131kkale",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "saa": {
+        "city": "Saransk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kio": {
+        "city": "Kirov",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mer": {
+        "city": "Mersin",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "kaz": {
+        "city": "Kazan",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "siv": {
+        "city": "Sivas",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sot": {
+        "city": "Sotchi",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "roo": {
+        "city": "Rostov-na-Donu",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ada": {
+        "city": "Adana",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pen": {
+        "city": "Penza",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "uly": {
+        "city": "Ulyanovsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "izh": {
+        "city": "Izhevsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "krs": {
+        "city": "Krasnodar",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "pem": {
+        "city": "Perm",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sat": {
+        "city": "Saratov",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "vog": {
+        "city": "Volgograd",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "gaz": {
+        "city": "Gaziantep",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "eka": {
+        "city": "Ekaterinburg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "sam": {
+        "city": "Samara",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ufa": {
+        "city": "Ufa",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "orn": {
+        "city": "Orenburg",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ura": {
+        "city": "Uralsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mak": {
+        "city": "Makhatchkala",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "mag": {
+        "city": "Magnitogorsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "ast": {
+        "city": "Astrakhan",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "tyu": {
+        "city": "Tyumen",
+        "codes": [],
+        "links": {},
+        "uic": null
+    },
+    "chl": {
+        "city": "Chelyabinsk",
+        "codes": [],
+        "links": {},
+        "uic": null
+    }
+}
