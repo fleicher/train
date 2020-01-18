@@ -3,7 +3,6 @@ import pickle
 import commentjson
 import networkx as nx
 import pandas as pd
-import matplotlib.pyplot as plt
 
 G = nx.Graph()
 
@@ -81,7 +80,7 @@ def find_suitable_routes(network, mapping, passengers):
 
 
 if __name__ == "__main__":
-    limit = 900  # in mins
+    limit = 900  # in min
     create_network()
     # draw_network()
     net = get_lengths()

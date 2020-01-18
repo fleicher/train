@@ -1,10 +1,10 @@
 {
   "times": [
-    ["war", "bia", 2.17],
-    //["bia", "vil", 7.30],
-    ["bia", "kau", 4.36], // r2r
-    ["kau", "vil", 1.39], // r2r
-    ["vil", "da1", 2.43], // interactive
-    ["da1", "rig", 3.24] // interactive
+//    ["war", "bia", 2.17],
+//    //["bia", "vil", 7.30],
+//    ["bia", "kau", 4.36], // r2r
+//    ["kau", "vil", 1.39], // r2r
+//    ["vil", "dau", 2.43], // interactive
+//    ["dau", "rig", 3.24] // interactive
   ]
 }

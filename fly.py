@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 from claz.airport import Airport
-from claz.util import get_eu_map, load_pickle, dump_pickle
+from claz.util import get_eu_map, load_pickle, dump_pickle, Karte
 
 COORDS_PICKLE = 'coords.pickle'
 DATA_PICKLE = 'data/data_all.pickle'
@@ -16,6 +16,9 @@ LONG_RANGE = (-11.0, 39.0)  # x-axis
 
 
 class Fly:
+    SPEED = 800  # km/h
+    ADD_TIME = 30  # min
+
     def __init__(self, min_pas=None, *, renew=False):
         # code -> (lat, long, city, ctry)
         self.airport_coords = Fly._load_coords(renew=renew)
@@ -31,7 +34,7 @@ class Fly:
         # ctry, city, code, lat, long
         self.airports: Dict[str, Airport] = {}
         if min_pas is not None:
-            self.filter_passenger_data(min_pas)
+            self.get_european_flights(min_pas)
 
     # NOTE: original file had missing entries for "ESDF", "ESMQ"
     @staticmethod
@@ -86,7 +89,8 @@ class Fly:
         for filename in [f for f in os.listdir(DATA_DIR) if f.endswith('.tsv')]:
             country_code = filename[-6:-4]
             print(country_code, "reading file:", filename)
-            result = pd.read_csv(os.path.join(DATA_DIR, filename), delimiter='\t', encoding='utf-8')
+            result = pd.read_csv(os.path.join(DATA_DIR, filename), delimiter='\t',
+                                 encoding='utf-8')
             result = result.apply(retrieve_value, axis=1)
             result.columns = columns
             result = result.dropna()  # drop entries that are not in TIMES
@@ -100,7 +104,7 @@ class Fly:
         print("Saved passenger data to", DATA_PICKLE, "number of rows:", len(all_passenger_data))
         return all_passenger_data
 
-    def filter_passenger_data(self, min_amount):
+    def get_european_flights(self, min_amount):
         print(f"start filtering of {len(self.all_passenger_data)} passenger data rows...")
         filtered_data = self.all_passenger_data[self.all_passenger_data.pas > min_amount]
         filtered_data = filtered_data[LAT_RANGE[0] < filtered_data.orig_lat]
@@ -113,18 +117,21 @@ class Fly:
         filtered_data = filtered_data[filtered_data.dest_long < LONG_RANGE[1]]
 
         def extract_airports(line: pd.Series):
+            dist = Karte.distance(line.orig_lat, line.orig_long, line.dest_lat, line.dest_long)
+            duration = Fly.ADD_TIME + dist / (Fly.SPEED / 1000 * 60)  # dur in min, dist in m
             return pd.Series((
                 Airport(line.orig_ctry, line.orig_city, line.orig, line.orig_lat, line.orig_long),
                 Airport(line.dest_ctry, line.dest_city, line.dest, line.dest_lat, line.dest_long),
-                line.pas
-            ), index=["orig_fly", "dest_fly", "pas"])
+                int(line.pas), int(dist), int(duration)
+            ), index=["orig_fly", "dest_fly", "pas", "dist_fly", "dur_fly"])
 
         self.passenger_data = filtered_data.apply(extract_airports, axis=1)
         airports_: Set[Airport] = set()
         airports_.update(list(self.passenger_data.orig_fly))
         airports_.update(list(self.passenger_data.dest_fly))
         self.airports = {airport.code: airport for airport in airports_}
-        print(f"we have {len(self.passenger_data)} plane routes between {len(airports_)} European airports.")
+        print(f"we have {len(self.passenger_data)} plane routes "
+              f"between {len(airports_)} European airports.")
 
     def draw_airports(self, draw_names=True, random_color=False, draw_lines=False):
         import cartopy.crs as ccrs
@@ -146,4 +153,4 @@ class Fly:
 
 if __name__ == "__main__":
     fly = Fly()
-    fly.filter_passenger_data(30000)
+    fly.get_european_flights(30000)

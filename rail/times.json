@@ -1,7 +1,4 @@
 {
-  "applinks": {
-
-  },
   "times": [
     // Ireland
     ["bel", "dub", 2.10],
@@ -22,7 +19,7 @@
     ["car", "bri", 0.44], // r2r
     ["lon", "bri", 1.27], // r2r
     ["bri", "bir", 1.23], // r2r
-    ["lon", "bru", 2.35],
+    ["lon", "bru", 2.01], // r2r else 2.35
     ["lon", "par", 2.50],
     ["lon", "not", 1.36], // r2r
     ["lon", "she", 1.58], // r2r
@@ -105,17 +102,18 @@
     ["toi", "geo", 2.09], // r2r
     ["toi", "lyo", 3.53], // r2r
     ["geo", "pis", 1.30], // r2r
+    ["pis", "fir", 0.49], // r2r
     ["nic", "mil", 5.10], // interactive map
-    ["geo", "mil", 0.15], // calc'ed diff
+    ["geo", "mil", 1.45], // r2r
     ["geo", "rom", 4.05],
     ["mil", "ben", 4.00], //interactive map
-    ["mil", "zur", 3.30], // ?? that is the remaining time from static map
+    ["mil", "zur", 3.40], // r2r
     ["mil", "mun", 7.30],
     ["mil", "ven", 2.35],
     ["mil", "ver", 1.13], // r2r
     ["ver", "ven", 1.12], // r2r
     ["ver", "bol", 0.50], // r2r
-    ["ven", "mun", 8.40],
+    ["ven", "mun", 6.51], // r2r (this is map 8.40],
     ["ven", "wie", 7.40],
     ["ven", "lju", 6.30],
     ["ven", "bol", 1.25],
@@ -133,6 +131,7 @@
     ["mah", "stu", 0.37], // r2r
     ["stu", "str", 1.21], // r2r
     ["stu", "bas", 2.18], // r2r
+    ["stu", "mun", 2.13], // r2r
     ["kol", "bru", 1.50],
     ["mun", "wie", 4.00],
     ["mun", "pra", 6.00],
@@ -176,7 +175,7 @@
     ["nur", "fra", 2.04], // r2r
     ["nur", "stu", 2.11], // r2r
     ["nur", "mun", 1.06], // r2r
-    ["nur", "lin", 5.52], // r2r
+    ["nur", "lin", 2.54], // r2r
     ["nur", "pra", 4.10], // r2r
 
     // East Europe
@@ -187,7 +186,7 @@
     ["poz", "gda", 2.54], // r2r
     ["gda", "war", 2.47], // r2r
     ["ber", "pra", 4.05],
-    ["ber", "war", 6.20],
+    ["ber", "war", 5.43], // r2r but 6.20],
     ["wie", "war", 7.00],
     ["wie", "bra", 1.06], // r2r
     ["bra", "bud", 2.22], // r2r
@@ -198,7 +197,7 @@
     ["kat", "wro", 2.25], // r2r
     ["wro", "dre", 4.26], // r2r via Cottbus
 
-    // Skandinavia
+    // Scandinavia
     ["osl", "kri", 4.36], // vy.no
     ["osl", "sta", 7.37], // vy.no
     ["ume", "sun", 2.39], // r2r
@@ -217,6 +216,20 @@
     ["sak", "tal", 7.58], // R2R
     ["mos", "rig", 16.32], // R2R
     ["mos", "min", 9.02], // R2R
+
+    ["min", "vil", 2.30], // r2r
+    ["min", "brs", 3.02], // r2r
+    ["brs", "war", 3.32], // r2r
+    ["lvi", "war", 8.04], // r2r
+    ["lvi", "kra", 5.07], // r2r
+    ["lvi", "kyi", 5.09], // r2r
+
+    ["war", "bia", 2.17],
+    //["bia", "vil", 7.30],
+    ["bia", "kau", 4.36], // r2r
+    ["kau", "vil", 1.39], // r2r
+    ["vil", "dau", 2.43], // interactive
+    ["dau", "rig", 3.24], // interactive
 
     ["got", "osl", 3.36], // r2r
     ["got", "sto", 2.57], // r2r
@@ -246,7 +259,7 @@
     ["bur", "sof", 5.57],
     ["sof", "var", 7.26], // r2r
     ["var", "buc", 7.36], // r2r
-    // Turco-greek
+    // Turkish-greek
     ["sko", "the", 5.00],
     ["sof", "the", 7.20],
     ["the", "ath", 5.25],
